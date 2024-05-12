@@ -8,51 +8,73 @@
   </head>
   <body>
     <header class="header__container">
-      <p>Header Logo</p>
-      <nav>
-        <ul>
-          <li><a href="#">header link one</a></li>
-          <li><a href="#">header link two</a></li>
-          <li><a href="#">header link three</a></li>
+      <p class="header__logo">Header Logo</p>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item"><a class="header__item-link"href="#">header link one</a></li>
+          <li class="header__item"><a class="header__item-link"href="#">header link two</a></li>
+          <li class="header__item"><a class="header__item-link"href="#">header link three</a></li>
         </ul>
       </nav>
     </header>
-    <section>
-      <h3>This website is awesome</h3>
-      <p>
+    <section class="hero">
+      <div class="hero__container-text"><h3 class="hero__header">This website is awesome</h3>
+      <p class="hero__content">
         This website has some subtext that goes here under the main title. Its a
         smaller font and the color is lower contrast
       </p>
-      <button>Sign up</button>
-      <div>
-        <p>this is a place holder for an image</p>
+      <button class="hero__button">Sign up</button>
+    </div>
+      <div class="hero__image-container">
+        <p class="hero__image-content">this is a place holder for an image</p>
       </div>
     </section>
-    <main>
-      <h4>Some random information.</h4>
-      <div></div>
-      <p>this is some subtext under an illustration or image</p>
-      <div></div>
-      <p>this is some subtext under an illustration or image</p>
-      <div></div>
-      <p>this is some subtext under an illustration or image</p>
-      <div></div>
-      <p>this is some subtext under an illustration or image</p>
+    <main class="product">
+      <h4 class="product__title">Some random information.</h4>
+      <div class="product__square-container">
+      <div class="product__square-card">
+      <div class="product__square"></div>
+      <p class="product__content">this is some subtext under an illustration or image</p>
+    </div>
+
+    <div class="product__square-card">
+      <div  class="product__square"></div>
+      <p class="product__content">this is some subtext under an illustration or image</p>
+
+    </div>
+
+    <div class="product__square-card">
+      <div  class="product__square"></div>
+      <p class="product__content">this is some subtext under an illustration or image</p>
+    </div>
+
+    <div class="product__square-card">
+      <div  class="product__square"></div>
+      <p class="product__content">this is some subtext under an illustration or image</p>
+    </div>
     </main>
-    <section>
-      <p>
+    <section class="quote">
+      <div class="quote__container">
+      <p class="quote__content">
         This is an inspiring quote, or a textimonial from a customer. Maybe it's
         just filling up space, or maybe people will actually read it. Who knows?
         All I know is that it looks nice.
       </p>
-      <p>-Thor, God of Thunder</p>
-      <div>
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over that</p>
-        <button>Sign up</button>
+      <p class="quote__author">-Thor, God of Thunder</p>
+    </div>
+    </section>
+    <section class="action">
+      <div class="action__container">
+        <div class="action__text-container">
+        <p class="action__title">Call to action! It's time!</p>
+        <p class="action__content">Sign up for our product by clicking that button right over that</p>
+      </div>
+        <button class="action__button">Sign up</button>
       </div>
     </section>
 
-    <footer>Copyright &#169 The Odin Project 2021 </footer>
+    <footer class="footer__container">
+      <p class="footer__content">Copyright &#169 The Odin Project 2021</p> 
+    </footer>
   </body>
 </html>
